@@ -1,39 +1,47 @@
+طريقة تنصيب اللعبة 
+اولاً - نكتب 
 
-##TELEWAR | v2.2 | ALKHALIDEE | 2016 
+sudo apt-get update 
 
-Telegram | @Eyeslov
+ثانــيــاً - نكتب
 
-Github | alkhalidee
+sudo apt-get update 
 
-Simple telegram bot game
+ثالــثــاً - نكتب
 
-##REQUIREMENTS
-install gems :
-```
+git clone https://github.com/h9p/CLaSH.git
+
+رابــعــاً - نكتب
+
 gem install telegram-bot-ruby
+
+خامــســاً - نكتب
+
 gem install colorize
+
+سادســـاً - نكتب
+
 gem install json
-```
-## Configure Telewar
-Edit config.json
-```
-"BotName":"Your_bot_name",
-    "Token":"Place_your_bot_token_here",
-    "Version":"v 2.1",
-    "Devlopers":[106191362,], #add your id here
-    "Groups":[-1001020167410,], #add group id here
-    "Admins":[106191362,], #add admins id's here
-    "bban":[]
-```
-##RUNNING
-```
-ruby web.rb
-```
-or u can set pool size like that
-```
-TELEGRAM_BOT_POOL_SIZE=4 ruby web.rb
-```
-##Screenshots
-![alt tag](http://i.imgur.com/TAHiobU.png)
-![alt tag](http://i.imgur.com/z10FfEw.png)
+
+سابــعــاً - نذهب الى ملف config.json ونعدل عليه
+
+
+    "BotName"    :    "clash Of Fire",         نكتب اسم البوت 
+    "Token"    :    "187874635:AAGmnFEn72mFpw4yF85MDTq-7Xyzu_wgJlo",     نكتب توكن البوت اللي سويناه من  botfather
+    "Version"    :    "v 2.1",    اصدار اللعبة 
+    "Devlopers" 	:	[139680183],   ايدي المطور 
+    "Groups"	:	[1001067373655],    ايدي المجموعه
+    "Admins"	: [139680183],   ايدي الادمنية اللي حطيناهم ادمنية باللعبة
+    "bban"	:	[]   قائمة الحظر
+
+ويتم تنصيب لعبة CLaSH Of FIRE بنجاح
+
+
+طبعاً مطور اللعبة الاصلية هو 
+@eyeslov كل الشكر والتقدير على هذي اللعبة الرائعة 
+
+وتم التعديل عليها بواسطة 
+@HeEeM 
+
+اي سؤال او استفسار اني بالخدمة 
 
