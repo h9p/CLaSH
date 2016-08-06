@@ -23,7 +23,17 @@ gem install colorize
 
 gem install json
 
-سابــعــاً - نذهب الى ملف config.json ونعدل عليه
+وبعدهه نكتب هذا الامر
+
+cd CLaSH
+
+وبعدهه نكتب هذا الامر
+
+ruby web.rb
+
+سابــعــاً - نذهب الى ملف 
+
+config.json ونعدل عليه
 
 
     "BotName"    :    "clash Of Fire",         نكتب اسم البوت 
