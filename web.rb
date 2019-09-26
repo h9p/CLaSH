@@ -1,3 +1,4 @@
+
 #Encoding: UTF-8
 
 
@@ -48,4 +49,6 @@ Telegram::Bot::Client.run(token) do |bot|
 	end
 end
 
+
+#designed by Humam Muhammed
 #TELEGRAM_BOT_POOL_SIZE=16 ruby bot.rb
